@@ -111,7 +111,7 @@
 <br>&ensp; - COUNTIF(조건): COUNTIF(컬럼 = "3")
 
 ## 2-7. 정리
-<img src = "images/007_데이터탐색 - 조건, 추출, 요약 정리.png" width="50%" height="50%">
+<img src = "images/007_데이터탐색 - 조건, 추출, 요약 정리.png" width="80%" height="80%">
 
 ## 2-8. 새로운 집계 함수 소개
 - GROUP BY ALL: 그룹화할 키를 inferring(추론)해줌. GROUP BY 1, 2, ...등을 작성하지 않아도 됨.
@@ -154,4 +154,4 @@ WHERE
 <br> <img src = "images/008_Espanso 예시.png" width="50%" height="50%">
 
 ## 수행 인증샷
-<img src = "images/009_2주차학습인증.png" width="50%" height="50%">
+<img src = "images/009_2주차학습인증.png" width="30%" height="30%">
