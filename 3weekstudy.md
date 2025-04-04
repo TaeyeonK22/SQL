@@ -5,7 +5,7 @@
   * 문제가 있는 부분을 지적해주는 문제 진단 역할
 
 * 대표적인 오류: Syntax Error(문법 오류)
-  * 문법을 지키지 않아 생기는 오류로
+  * 문법을 지키지 않아 생기는 오류
   * Error Message를 보고 GhatGPT에 질문하여 해결 방법 찾아보기
 
 * Syntax Error: SELECT list must not be empty at [10:1]
@@ -49,7 +49,7 @@ WHERE
 * 조건문 함수
 * BigQuery 공식 문서 확인하는 방법
 
-<br> <img src = "images/010_4-1.Intro_데이터활용과정위계.png" width="40%" height="40%">
+<br> <img src = "images/010_4-1.Intro_데이터활용과정위계.png" width="50%" height="50%">
 
 ## 4-2. 데이터 타입과 데이터 변환(CAST, SAFE_CAST)
 * 변환을 위한 함수
@@ -110,7 +110,7 @@ SELECT
 
 ## 4-4. 날짜 및 시간 데이터 이해하기(1)(타임존, UTC, Milisecond, TIMESTAMP/DATETIME)
 <img src = "images/014_날짜 및 시간 데이터의 핵심.png" width="40%" height="40%">
-<br><br>
+<br>
 
 * 날짜 및 시간 데이터의 핵심
   * created at: 언제 생성되었는가
@@ -143,12 +143,12 @@ SELECT
   * microsecond: 1/1,000ms
   * 예시: 1704176819711ms -> 2024-01-02 15:26:59(DATETIME)
     * 주의사항: Datetime 쓸 때는 TIMEZONE을 누락하지 말자!
-  <br><img src = "images/015_시간 데이터 다루기(milisecond, microsecond).png" width="60%" height="60%">
+  <br><img src = "images/015_시간 데이터 다루기(milisecond, microsecond).png" width="80%" height="80%">
 
 * TIMESTAMP와 DATETIME의 비교
   * Timestamp(UTC): 한국시간 -9시간이므로, 한국 오전 09:00이면, UTC기준 0시임.
   * Datetime(T): 함수에 Asia/Seoul을 포함하므로 한국 시간과 동일하나, 다를 경우 Timezone을 확인해보아야 함.
-<br><img src = "images/016_TIMESTAMP와 DATETIME의 비교.png" width="60%" height="60%">
+<br><img src = "images/016_TIMESTAMP와 DATETIME의 비교.png" width="70%" height="70%">
 
 ## 수행 인증샷
 <img src = "images/017_3주차학습인증.png" width="30%" height="30%">
